@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font: 400 16px/21px 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, rgba(19, 19, 22, 0) 0%, #131316) no-repeat top/100% 667px, url("./images/image.jpg")  no-repeat top/100% 667px
+    #131316;
+}
+
+.container{
+    width: 620px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/*title*/
+h2.title2{
+    font-size: 32px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.button{
+    display: flex;
+    max-width: 180px;
+    padding: 0;
+    border: 0;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    min-width: 180px;
+    height: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_nav{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.novelties_title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header_logo{
+    height: 100%;
+}
+
+.novelties_section{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.novelties_card{
+    display: flex;
+    max-width: 200px;
+    background: #FFFFFF;
+    flex-direction: column;
+    border-radius: 4px;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.novelties_card:first-child{
+    padding-top: 33px;
+}
+
+.novelties_img{
+    margin-bottom: 25px;
+}
+
+.novelties_img--intend{
+    margin-bottom: 37px;
+}
+
+.novelties_text{
+    max-width: 180px;
+    margin:0;
+    text-align: center;
+}
+
+.novelties_price{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 90px;
+    position: relative;
+    right: 10px;
+}
