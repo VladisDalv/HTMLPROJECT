@@ -176,3 +176,7 @@ h3.title3{
 .bigCard_icon:last-child{
     margin-right: -8px;
 }
+.bigCard_price{
+    display: flex;
+    list-style-type: none;
+}
